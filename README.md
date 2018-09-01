@@ -1,6 +1,6 @@
 # Introduction
 
-CPP-nodejs-weex
+CPP-nodejs-weex-canvans
 
 若没有安装npm或cnpm(两者等价安装cnpm以下命令使用cnpm即可)
 ``` bash
