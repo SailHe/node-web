@@ -1,8 +1,14 @@
 # Introduction
 
-CPP-nodejs-weex-canvans
+CPP - Node.js - Weex - Canvas
 
-若没有安装npm或cnpm(两者等价安装cnpm以下命令使用cnpm即可)
+
+
+在已安装Node.js的前提下
+若没有安装 npm 或 cnpm
+
+(两者等价; 安装cnpm以下命令使用cnpm即可)
+
 ``` bash
 npm install npm -g
 ```
