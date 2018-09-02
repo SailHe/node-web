@@ -1,0 +1,34 @@
+{
+  "name": "node-web",
+  "version": "1.0.0",
+  "description": "CPP - Node.js - Weex - Canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SailHe/node-web.git"
+  },
+  "keywords": [],
+  "author": "SailHe (396103442@qq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SailHe/node-web/issues"
+  },
+  "homepage": "https://github.com/SailHe/node-web#readme",
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "codecov": "^3.0.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.3.0",
+    "pre-commit": "^1.2.2"
+  }
+}
