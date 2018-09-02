@@ -1,20 +1,14 @@
 # Introduction
 
 CPP - Node.js - Weex - Canvas
+基于Node.js的Web项目
 
 
+前导知识: Node.js; npm
 
-在已安装Node.js的前提下
-若没有安装 npm 或 cnpm
+打开终端
 
-(两者等价; 安装cnpm以下命令使用cnpm即可)
-
-``` bash
-npm install npm -g
-```
-
-## 步骤一: 安装依赖(Windows命令)
-打开命令行 输入
+## 步骤一: 安装依赖
 ``` bash
 npm install
 ```
@@ -27,4 +21,5 @@ npm install --cache-min Infinity
 ``` bash
 npm start
 ```
+
 此时应该自动打开网页
