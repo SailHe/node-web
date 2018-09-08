@@ -65,3 +65,10 @@ For more information about using Node.js on Heroku, see these Dev Center article
 - [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
 - [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
 - [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+
+安装好环境 并建好帐号 后对于一个试图部署到herku上的项目
+1. 终端下进入项目目录
+2. heroku git:remote -a sailhe (sailhe是自己账户下的app名)
+3. git push heroku master
+
+部署结果: https://sailhe.herokuapp.com/
