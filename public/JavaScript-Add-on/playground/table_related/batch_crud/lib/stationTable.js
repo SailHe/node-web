@@ -129,14 +129,14 @@ $("#stationInfoModal").on('hidden.bs.modal', function () {
     $(document.body).addClass("modal-open");
 });
 
-//请求所有奶站 并缓存
+// 请求所有奶站 并缓存 PS: FireFox中貌似不允许这种请求(单开一个页面直接请求这个这个json文件是可以的) 另外需要注意清理缓存
 function listStationRequest() {
     $.ajax({
         type: 'post',
         dataType: 'json',
         async: false,
         data: {
-            fileName: "JavaScript-Add-on/playground/table_related/batch_crud/station.json"
+            fileName: "JavaScript-Add-on/playground/table_related/batch_crud/lib/station.json"
         },
         url: '/api',
         success: function (result) {

@@ -16,7 +16,7 @@ $(() => {
         dataType: 'json',
         async: true,
         data: {
-            fileName: "JavaScript-Add-on/playground/table_related/batch_crud/station.json"
+            fileName: "JavaScript-Add-on/playground/table_related/batch_crud/lib/station.json"
         },
         url: './api',
         success: function (result) {
@@ -31,7 +31,7 @@ $(() => {
     $.ajax({
             type: 'POST',
             data: {
-                fileName: "JavaScript-Add-on/playground/table_related/batch_crud/station.json"
+                fileName: "JavaScript-Add-on/playground/table_related/batch_crud/lib/station.json"
             },
             url: './api',
         }).done(function(results){
@@ -44,7 +44,7 @@ $(() => {
     // 这种思路行不通
     $.ajax({
             type: 'POST',
-            url: './api/JavaScript-Add-on/playground/table_related/batch_crud/station.json',
+            url: './api/JavaScript-Add-on/playground/table_related/batch_crud/lib/station.json',
         }).done(function(results){
             console.log('async post/ suc');
             console.log(results);
