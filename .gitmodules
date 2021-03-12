@@ -1,3 +1,3 @@
 [submodule "public/Native-front-end"]
 	path = public/Native-front-end
-	url = git@git-lan.boolood.tk:GE_admin/JavaScript-Add-on.git
+	url = https://github.com/SailHe/JavaScript-Add-on.git
