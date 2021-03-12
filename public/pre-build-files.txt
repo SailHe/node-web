@@ -1,0 +1,9 @@
+./asset-manifest.json
+./favicon.ico
+./favicon-react.ico
+./index.html
+./manifest.json
+./pre-build-files.txt
+./precache-manifest.3e9e15c8439c41e9809e66696e9234e7.js
+./service-worker.js
+./static

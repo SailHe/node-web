@@ -25,9 +25,18 @@
     </div>
   </div> -->
   <div class="container">
+    SailHe的Demo列表
     <div class="alert alert-info text-center" role="alert">
-      Demo<a href="JavaScript-Add-on/playground/table_related/batch_crud/BatchCRUDTable.html"class="alert-link">批量增删改</a>
-      <a href="https://github.com/SailHe/JavaScript-Add-on/blob/master/src/playground/table_related/batch_crud"class="alert-link">Src</a>
+      2021-03月:--------------------------基于React+MATERIAL-UI的工作组NAS管理面板
+      </br>
+      <a href="/" class="alert-link">在线演示</a>
+      </br>
+      2019-03月:----------------基于jQuery+jQuery-UI+Bootstrap的Ajax异步批量增删改前端实现
+      </br>
+      <a href="JavaScript-Add-on/playground/table_related/batch_crud/BatchCRUDTable.html" class="alert-link">在线演示</a>
+      <a href="JavaScript-Add-on/playground/table_related/datatable_rowspan/rowSpanTest.html" class="alert-link">在线演示</a>
+      <a href="https://github.com/SailHe/JavaScript-Add-on/blob/master/src/playground/table_related/batch_crud" class="alert-link">源码</a>
+    </br>
     </div>
     <hr>
     <!-- <div class="row">
@@ -59,36 +68,36 @@
         </ul>
         
       </div> -->
-    </div>
-     <!-- row -->
-    <div class="alert alert-info text-center" id="testInfo" role="alert">
-      底部告示
-    </div>
+  </div>
+  <!-- row -->
+  <div class="alert alert-info text-center" id="testInfo" role="alert">
+    底部告示
+  </div>
   </div>
 
 </body>
 
 
 <!-- <script src="./aplayer/dist/APlayer.min.js"></script> -->
-<script src="./test.js"></script>
+<script src="./b-index.js"></script>
 
 <script>
-  $('#testInfo').text("Hello World");
+  $('#testInfo').text("此页面基于ejs");
   $.ajax({
-        type: 'get',
-        url: './api?fileName=test.json',
-        success: (result) => {
-          console.log("api get suc");
-          console.log(result);
-        },error: ( err ) => {
-          console.log('api get err');
-        }
+    type: 'get',
+    url: './api?fileName=test.json',
+    success: (result) => {
+      console.log("api get suc");
+      console.log(result);
+    }, error: (err) => {
+      console.log('api get err');
+    }
   });
 
   // 创建一个对象
   var person = {
-      name: "lucy",
-      age: 25
+    name: "lucy",
+    age: 25
   }
   $.post("./postJSONTest", (data, status) => {
     console.log("postJSONTest Data: " + data + " Status: " + status);

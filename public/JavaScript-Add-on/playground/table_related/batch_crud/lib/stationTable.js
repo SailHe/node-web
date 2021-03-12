@@ -135,10 +135,8 @@ function listStationRequest() {
         type: 'post',
         dataType: 'json',
         async: false,
-        data: {
-            fileName: "JavaScript-Add-on/playground/table_related/batch_crud/lib/station.json"
-        },
-        url: '/api',
+        // 这个url事实上是相对于调用者来说的(即引入此js的页面)
+        url: './lib/station.json',
         success: function (result) {
             if (result.success) {
                 $("#stationStorehouse").empty();
