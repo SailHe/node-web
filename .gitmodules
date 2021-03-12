@@ -1,0 +1,3 @@
+[submodule "public/Native-front-end"]
+	path = public/Native-front-end
+	url = https://github.com/SailHe/JavaScript-Add-on.git
