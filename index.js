@@ -49,7 +49,6 @@ app.post('/saveJSON',function(req, res){
 app.post('/postJSONTest',function(req, res){
   // res.json({"a": "users"}); // obj = {a: 1,b: 2};
   // 同步读取本地json文件
-  // let jsonBufferBin = fs.readFileSync('./public/JavaScript-Add-on/playground/table_related/batch_crud/station.json');
   let jsonBufferBin = fs.readFileSync('./public/test.json');
   // 以json格式输出
   res.json(jsonBufferBin.toString());

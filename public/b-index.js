@@ -8,7 +8,7 @@ $(() => {
         dataType: 'json',
         async: true,
         data: {
-            fileName: "JavaScript-Add-on/playground/table_related/batch_crud/lib/station.json"
+            fileName: "Native-front-end/src/playground/table_related/batch_crud/lib/station.json"
         },
         url: './api',
         success: function (result) {
@@ -23,7 +23,7 @@ $(() => {
     $.ajax({
             type: 'POST',
             data: {
-                fileName: "JavaScript-Add-on/playground/table_related/batch_crud/lib/station.json"
+                fileName: "Native-front-end/src/playground/table_related/batch_crud/lib/station.json"
             },
             url: './api',
         }).done(function(results){
@@ -36,7 +36,7 @@ $(() => {
     // 这种思路行不通
     $.ajax({
             type: 'POST',
-            url: './api/JavaScript-Add-on/playground/table_related/batch_crud/lib/station.json',
+            url: './api/Native-front-end/src/playground/table_related/batch_crud/lib/station.json',
         }).done(function(results){
             console.log('async post/ suc');
             console.log(results);
