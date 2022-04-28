@@ -28,7 +28,7 @@
   "dependencies": {
     "adm-zip": ">=0.4.11",
     "aplayer": "^1.10.1",
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "cheerio": "^1.0.0-rc.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
